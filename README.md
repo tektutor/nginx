@@ -1,6 +1,6 @@
 ## Rootless nginx image for Kubernetes/Openshift
 
-Supporting the OpenShift Community with Rootless Nginx Images
+Supporting the OpenShift Community with Rootless Nginx Image.
 
 The open-source ecosystem thrives on choice and transparency. With Bitnami silently discontinuing their rootless Nginx image on Docker Hub, many OpenShift users were left without a trusted, non-root alternative.
 
