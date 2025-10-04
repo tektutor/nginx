@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TekTutor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Smooth hover transition for cards */
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- Logo -->
+      <a href="https://www.tektutor.org" target="_blank" class="flex items-center">
+        <img src="logo.jpg" alt="TekTutor Logo" class="h-10 w-auto mr-3 rounded">
+        <span class="text-2xl font-bold text-blue-600 tracking-wide">TekTutor</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-gray-700 font-medium">
+          <li><a href="https://www.tektutor.org" class="hover:text-blue-600 transition-colors">Home</a></li>
+          <li><a href="mailto:jegan@tektutor.org" class="hover:text-blue-600 transition-colors">Email</a></li>
+          <li>
+            <a href="https://wa.me/918220005626" target="_blank" class="hover:text-green-600 transition-colors">
+              WhatsApp
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-600 to-blue-500 text-white py-24">
+    <div class="max-w-3xl mx-auto text-center px-4">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">Welcome to TekTutor</h1>
+      <p class="text-xl md:text-2xl mb-4">
+        Your trusted partner for training, consulting, and solutions in Cloud, DevOps, Containers, and OpenShift.
+      </p>
+      <p class="text-lg md:text-xl mb-8">
+        Visit our website: <a href="https://www.tektutor.org" target="_blank" class="underline font-semibold hover:text-gray-200">www.tektutor.org</a>
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="mailto:jegan@tektutor.org"
+           class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-200 transition shadow-md">
+          Contact via Email
+        </a>
+        <a href="https://wa.me/918220005626" target="_blank"
+           class="bg-green-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-600 transition shadow-md">
+          WhatsApp: +91 822-000-5626
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="py-20 max-w-6xl mx-auto px-4 grid sm:grid-cols-1 md:grid-cols-3 gap-10">
+    <div class="bg-white p-8 rounded-xl shadow-md card transition transform duration-300">
+      <h3 class="text-2xl font-semibold mb-4">📘 Training</h3>
+      <p class="text-gray-700 leading-relaxed">
+        Hands-on workshops on Kubernetes, OpenShift, Ansible, Terraform, and modern DevOps practices to upskill your team.
+      </p>
+    </div>
+    <div class="bg-white p-8 rounded-xl shadow-md card transition transform duration-300">
+      <h3 class="text-2xl font-semibold mb-4">🛠️ Consulting</h3>
+      <p class="text-gray-700 leading-relaxed">
+        End-to-end consulting services for Cloud, Containerization, CI/CD pipelines, and Infrastructure Automation.
+      </p>
+    </div>
+    <div class="bg-white p-8 rounded-xl shadow-md card transition transform duration-300">
+      <h3 class="text-2xl font-semibold mb-4">🌍 Solutions</h3>
+      <p class="text-gray-700 leading-relaxed">
+        Custom enterprise-grade solutions tailored to your business goals, ensuring efficiency and scalability.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-8 mt-16">
+    <div class="max-w-7xl mx-auto text-center text-gray-600 px-4 space-y-2">
+      <div>
+        © 2025 <a href="https://www.tektutor.org" class="text-blue-600 font-medium">TekTutor</a>
+      </div>
+      <div>
+        Email: <a href="mailto:jegan@tektutor.org" class="text-blue-600 font-medium">jegan@tektutor.org</a> | 
+        WhatsApp: <a href="https://wa.me/918220005626" target="_blank" class="text-green-600 font-medium">+91 822-000-5626</a> | 
+        Website: <a href="https://www.tektutor.org" target="_blank" class="text-blue-600 font-medium">www.tektutor.org</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
