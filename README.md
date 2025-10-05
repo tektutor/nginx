@@ -1,4 +1,4 @@
-## Rootless nginx image for Kubernetes/Openshift
+## Rootless nginx container image for Kubernetes/Openshift
 
 Supporting the OpenShift Community with Rootless Nginx Image.
 
